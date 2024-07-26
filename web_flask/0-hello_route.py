@@ -6,9 +6,6 @@ app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
-"""The index function return a repsonse when it's /"""
-
-
 def index():
     """
     index (): returns the route for main
